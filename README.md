@@ -1,16 +1,28 @@
-# React + Vite
+# Plataforma de Cursos Online - LAB-Cursos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Trabalho prático desenvolvido para a disciplina de Tecnologia de Construção de Software.
 
-Currently, two official plugins are available:
+## 🚀 Como Rodar o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Passo 1: Instalar as dependências
 
-## React Compiler
+Abra o terminal na raiz do projeto e instale os pacotes do Node:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+npm install
 
-## Expanding the ESLint configuration
+Passo 2: Rodar o Banco de Dados Simulado (Backend)
+Em um terminal separado, inicie o JSON Server na porta 3001:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npx json-server --watch db.json --port 3001
+
+Passo 3: Rodar a Aplicação React (Frontend)
+No terminal principal, inicie o servidor de desenvolvimento do Vite:
+
+npm run dev
+
+Acesse no navegador: http://localhost:5173/
+
+👥 Usuário de Teste Padrão
+E-mail: admin@teste.com
+
+Senha: 123456
