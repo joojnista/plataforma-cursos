@@ -1,0 +1,53 @@
+{
+  "cursos": [
+    {
+      "id": "1",
+      "titulo": "React do Zero ao Avançado",
+      "descricao": "Aprenda a criar interfaces modernas, componentização, hooks, consumo de APIs com Axios e gerenciamento de rotas do absoluto zero.",
+      "totalHoras": 10,
+      "nivel": "Iniciante/Intermediário",
+      "id_categoria": "1"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Desenvolvimento Web"
+    }
+  ],
+  "modulos": [
+    {
+      "id": "1",
+      "id_curso": "1",
+      "titulo": "Introdução ao React"
+    }
+  ],
+  "aulas": [
+    {
+      "id": "1",
+      "id_modulo": "1",
+      "titulo": "O que é o React e Componentes",
+      "duracaoMinutos": 12,
+      "tipoConteudo": "Vídeo",
+      "url_conteudo": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "admin",
+      "nomeCompleto": "Administrador Teste",
+      "email": "admin@teste.com",
+      "senhaHash": "123456",
+      "dataCadastro": "2026-04-01"
+    },
+    {
+      "id": "iOLmFdivKEQ",
+      "nomeCompleto": "Johnatan",
+      "email": "johnatan@gmail.com",
+      "senhaHash": "123",
+      "dataCadastro": "2026-04-01"
+    }
+  ],
+  "progresso_aulas": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
